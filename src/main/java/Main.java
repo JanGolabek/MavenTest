@@ -14,6 +14,9 @@ public class Main {
     }
 
     private String romanNumbers(int Number) {
-       return "I" ;
+        if (Number == 1) {
+            return "I" ;
+        } else return "II";
+
     }
 }

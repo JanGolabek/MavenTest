@@ -8,7 +8,12 @@ public class Main {
         assertEquals("I", romanNumbers(1));
     }
 
+    @Test
+    public void convertTwoToII() {
+        assertEquals("II", romanNumbers(2));
+    }
+
     private String romanNumbers(int Number) {
-       return "" ;
+       return "I" ;
     }
 }
